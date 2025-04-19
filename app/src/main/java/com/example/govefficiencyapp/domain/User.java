@@ -1,4 +1,4 @@
-package com.example.govefficiencyapp;
+package com.example.govefficiencyapp.domain;
 
 public class User {
     private int id;
