@@ -36,4 +36,8 @@ public class NotificationManager implements ClearanceObservor{
         // TODO: Check if expiry is within X days
         return false;
     }
+
+    private void notifyStatusChange(Application app) {
+        // TODO: Logic for status change
+    }
 }
