@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add tree package, add TreeNode skeleton class">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/tree/AVLTree.java" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="fix: import correct Application class from domain package">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/manager/ClearanceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/tree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/tree/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745033574824</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add AVLTree skeleton class">
+      <option name="closed" value="true" />
+      <created>1745033778502</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745033778502</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,6 +285,8 @@
     <MESSAGE value="Add notifications package, add ClearanceObservor skeleton class" />
     <MESSAGE value="Add NotificationManger skeleton class" />
     <MESSAGE value="Add tree package, add TreeNode skeleton class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tree package, add TreeNode skeleton class" />
+    <MESSAGE value="Add AVLTree skeleton class" />
+    <MESSAGE value="fix: import correct Application class from domain package" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: import correct Application class from domain package" />
   </component>
 </project>
