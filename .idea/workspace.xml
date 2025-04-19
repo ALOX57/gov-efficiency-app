@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="fix: import correct Application class from domain package">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/manager/ClearanceManager.java" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add notifyStatusChange skeleton method in NotificationManager class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +281,39 @@
       <option name="project" value="LOCAL" />
       <updated>1745034084728</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add manager package, add ClearanceManager skeleton class">
+      <option name="closed" value="true" />
+      <created>1745034426915</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1745034426915</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add manager package, add ClearanceManager skeleton class">
+      <option name="closed" value="true" />
+      <created>1745034500437</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1745034500437</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add setStatus method in Application class">
+      <option name="closed" value="true" />
+      <created>1745034601828</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1745034601828</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add notifyStatusChange skeleton method in NotificationManager class">
+      <option name="closed" value="true" />
+      <created>1745034696181</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1745034696181</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -301,6 +333,9 @@
     <MESSAGE value="Add tree package, add TreeNode skeleton class" />
     <MESSAGE value="Add AVLTree skeleton class" />
     <MESSAGE value="fix: import correct Application class from domain package" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: import correct Application class from domain package" />
+    <MESSAGE value="Add manager package, add ClearanceManager skeleton class" />
+    <MESSAGE value="Add setStatus method in Application class" />
+    <MESSAGE value="Add notifyStatusChange skeleton method in NotificationManager class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add notifyStatusChange skeleton method in NotificationManager class" />
   </component>
 </project>
