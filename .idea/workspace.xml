@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add NotificationManger skeleton class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add tree package, add TreeNode skeleton class">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/tree/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ALOX57/gov-efficiency-app",
+    "accountId": "910be068-f9b8-4c28-ad2b-20ccfd4822a8"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -237,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745032842194</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add tree package, add TreeNode skeleton class">
+      <option name="closed" value="true" />
+      <created>1745033574824</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745033574824</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,6 +268,7 @@
     <MESSAGE value="Add Parser skeleton class" />
     <MESSAGE value="Add notifications package, add ClearanceObservor skeleton class" />
     <MESSAGE value="Add NotificationManger skeleton class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add NotificationManger skeleton class" />
+    <MESSAGE value="Add tree package, add TreeNode skeleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tree package, add TreeNode skeleton class" />
   </component>
 </project>
