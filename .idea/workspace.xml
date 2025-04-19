@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add Department skeleton class">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/forms/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/forms/FormFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add search package, add Query skeleton class">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/search/Tokenizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745031204448</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add forms package, add Form skeleton class, add FormFactory skeleton class">
+      <option name="closed" value="true" />
+      <created>1745031899848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745031899848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add search package, add Query skeleton class">
+      <option name="closed" value="true" />
+      <created>1745032005214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745032005214</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +216,8 @@
     <MESSAGE value="Add enums pacakge, add Status enum" />
     <MESSAGE value="Add status field to Application class" />
     <MESSAGE value="Add Department skeleton class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Department skeleton class" />
+    <MESSAGE value="Add forms package, add Form skeleton class, add FormFactory skeleton class" />
+    <MESSAGE value="Add search package, add Query skeleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search package, add Query skeleton class" />
   </component>
 </project>
