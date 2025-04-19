@@ -1,4 +1,7 @@
 package com.example.govefficiencyapp.forms;
 
-public class FormFactory {
+import com.example.govefficiencyapp.domain.User;
+
+public abstract class FormFactory {
+    public abstract Form createForm(User user);
 }

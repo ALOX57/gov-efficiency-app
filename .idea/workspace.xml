@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add status field to Application class">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/domain/Department.java" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Add Department skeleton class">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/forms/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/forms/FormFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -180,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745031108077</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Department skeleton class">
+      <option name="closed" value="true" />
+      <created>1745031204448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745031204448</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +201,7 @@
     <MESSAGE value="Add Application skeleton class" />
     <MESSAGE value="Add enums pacakge, add Status enum" />
     <MESSAGE value="Add status field to Application class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add status field to Application class" />
+    <MESSAGE value="Add Department skeleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Department skeleton class" />
   </component>
 </project>
