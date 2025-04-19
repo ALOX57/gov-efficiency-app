@@ -20,4 +20,8 @@ public class Application {
         this.id = id;
         this.status = status;
     }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
 }
