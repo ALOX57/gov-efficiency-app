@@ -37,7 +37,7 @@ public class NotificationManager implements ClearanceObservor{
         return false;
     }
 
-    private void notifyStatusChange(Application app) {
+    public void notifyStatusChange(Application app) {
         // TODO: Logic for status change
     }
 }

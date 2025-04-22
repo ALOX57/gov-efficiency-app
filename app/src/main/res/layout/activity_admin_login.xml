@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Applicant Example View: (Name)"
+        android:text="Admin Example View: (Name)"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,53 +36,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Email"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicantDOBTextbox" />
-
-    <EditText
-        android:id="@+id/applicantDOBTextbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Date of Birth"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/applicantNameTextbox" />
 
     <Button
-        android:id="@+id/registerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        android:text="Register"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
         android:id="@+id/loginButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_width="243dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="24dp"
         android:text="Login"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/registerButton" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/updateProfileButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Update Profile"
-        app:layout_constraintEnd_toStartOf="@+id/registerButton"
-        app:layout_constraintStart_toEndOf="@+id/loginButton"
-        app:layout_constraintTop_toTopOf="@+id/registerButton" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="236dp"
+        android:layout_height="87dp"
+        app:layout_constraintEnd_toEndOf="@+id/applicantEmailTextbox"
+        app:layout_constraintStart_toStartOf="@+id/applicantEmailTextbox"
+        app:layout_constraintTop_toBottomOf="@+id/applicantEmailTextbox" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

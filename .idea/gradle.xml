@@ -9,8 +9,8 @@
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1" />
+            <option value="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
