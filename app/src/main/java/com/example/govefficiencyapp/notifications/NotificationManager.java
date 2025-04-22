@@ -34,16 +34,29 @@ public class NotificationManager implements ClearanceObservor{
     }
 
     @Override
-    public void onClearanceUpdated(Application app){
-        // TODO: Trigger application approval/denial notification if matches currentUserID
+    public void onClearanceUpdated(Application app) {
+        if (app.getUserId() == currentUserID) {
+            // Trigger application approval/denial notification
+            System.out.println("Notification: Application status updated for user " + currentUserID);
+        }
     }
 
     public void notifyOnLogin() {
-        // TODO: Trigger expired notifications when user logs in
+        for (Application app : applications) {
+            if (isExpired(app)) {
+                System.out.println("Notification: Application " + app.getId() + " has expired.");
+            } else if (isExpiringSoon(app)) {
+                System.out.println("Notification: Application " + app.getId() + " is expiring soon.");
+            }
+        }
     }
 
     public void notifyExpiringSoon() {
-        // TODO: Trigger "expiring soon" notifications
+        for (Application app : applications) {
+            if (isExpiringSoon(app)) {
+                System.out.println("Notification: Application " + app.getId() + " is expiring soon.");
+            }
+        }
     }
 
     private boolean isExpired(Application app) {
@@ -55,8 +68,8 @@ public class NotificationManager implements ClearanceObservor{
         LocalDate today = LocalDate.now();
         return app.getEndDate().isAfter(today) && app.getEndDate().isBefore(today.plusDays(daysBeforeExpiry));
     }
-
     public void notifyStatusChange(Application app) {
-        // TODO: Logic for status change
+        System.out.println("Notification: Status of application " + app.getId() + " has changed to " + app.getStatus());
+        notifyObservers(app);
     }
 }
