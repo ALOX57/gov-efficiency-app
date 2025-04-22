@@ -1,13 +1,12 @@
 package com.example.govefficiencyapp.notifications;
 
 import com.example.govefficiencyapp.domain.Application;
-import com.example.govefficiencyapp.domain.User;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NotificationManager implements ClearanceObservor{
+public class NotificationManager implements ClearanceObserver {
     private int currentUserID;
     private List<Application> applications;
     private final int daysBeforeExpiry = 7;
@@ -34,11 +33,8 @@ public class NotificationManager implements ClearanceObservor{
     }
 
     @Override
-    public void onClearanceUpdated(Application app) {
-        if (app.getUserId() == currentUserID) {
-            // Trigger application approval/denial notification
-            System.out.println("Notification: Application status updated for user " + currentUserID);
-        }
+    public void onClearanceUpdated(Application app){
+        // TODO: Trigger application approval/denial notification if matches currentUserID
     }
 
     public void notifyOnLogin() {
