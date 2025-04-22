@@ -9,7 +9,7 @@ import com.example.govefficiencyapp.search.Tokenizer;
 import com.example.govefficiencyapp.tree.AVLTree;
 import com.example.govefficiencyapp.enums.Status;
 import com.example.govefficiencyapp.forms.Form;
-import com.example.govefficiencyapp.forms.FormFactory;
+import com.example.govefficiencyapp.forms.factories.FormFactory;
 import com.example.govefficiencyapp.domain.User;
 
 import java.util.ArrayList;
