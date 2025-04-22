@@ -1,17 +1,36 @@
 package com.example.govefficiencyapp.notifications;
 
 import com.example.govefficiencyapp.domain.Application;
+import com.example.govefficiencyapp.domain.User;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class NotificationManager implements ClearanceObservor{
     private int currentUserID;
     private List<Application> applications;
     private final int daysBeforeExpiry = 7;
+    private final List<ClearanceObserver> observers = new ArrayList<>();
 
     public NotificationManager(int currentUserID, List<Application> applications) {
         this.currentUserID = currentUserID;
         this.applications = applications;
+    }
+
+    public void addObserver(ClearanceObserver observer) {
+        observers.add(observer);
+    }
+
+    public void removeObserver(ClearanceObserver observer) {
+        observers.remove(observer);
+    }
+
+    // Notify all observers of a clearance update
+    private void notifyObservers(Application app) {
+        for (ClearanceObserver observer : observers) {
+            observer.onClearanceUpdated(app);
+        }
     }
 
     @Override
@@ -28,13 +47,13 @@ public class NotificationManager implements ClearanceObservor{
     }
 
     private boolean isExpired(Application app) {
-        // TODO: Check if endDate has passed
-        return false;
+        LocalDate today = LocalDate.now();
+        return app.getEndDate().isBefore(today);
     }
 
     private boolean isExpiringSoon(Application app) {
-        // TODO: Check if expiry is within X days
-        return false;
+        LocalDate today = LocalDate.now();
+        return app.getEndDate().isAfter(today) && app.getEndDate().isBefore(today.plusDays(daysBeforeExpiry));
     }
 
     public void notifyStatusChange(Application app) {
