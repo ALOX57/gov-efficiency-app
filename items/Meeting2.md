@@ -5,6 +5,7 @@ This following is a very simple team meeting template. You should expand it base
 **Absent:** None
 <br>
 **Lead:** Timothy Tsang
+<br>
 **Scribe:** Alex Birtles
 ## Agreed Procedure
 Stand up Procedure: 
@@ -39,11 +40,11 @@ Stand up Procedure:
 ### Summary of decisions
 **Task assignments finalized:**
 
-Alex: Tokeniser, Parsing, Query system
-Timothy: Factory method for forms, Singleton pattern
-David: UI, Authentication
-Bradley: Application core, Application details
-Oli: Observer pattern for Notifications
+- Alex: Tokeniser, Parsing, Query system
+- Timothy: Factory method for forms, Singleton pattern
+- David: UI, Authentication
+- Bradley: Application core, Application details
+- Oli: Observer pattern for Notifications
 
 ### Matters to be confirmed
 - Timeline for feature development and integration.
