@@ -65,9 +65,9 @@ public class ClearanceManager {
         return results;
     }
 
-    public Form requestForm(FormFactory factory, User user) {
-        return factory.createForm(user); // Abstract Factory usage
-    }
+//    public Form requestForm(FormFactory factory, User user) {
+//        return factory.createForm(user); // Abstract Factory usage
+//    }
 
 
 }

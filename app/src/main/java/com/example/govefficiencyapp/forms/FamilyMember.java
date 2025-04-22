@@ -1,6 +1,8 @@
 package com.example.govefficiencyapp.forms;
 import com.example.govefficiencyapp.domain.User;
 
+import java.util.Date;
+
 public class FamilyMember {
 
     private String fullName;
@@ -11,11 +13,13 @@ public class FamilyMember {
     private Gender gender;
     private MaritalStatus maritalStatus;
     private boolean isEmergencyContact;
+    private String nationality;
+    private String email;
 
     private FamilyMember(String fullName, Date dob, String nationality, String contactNum, String email, Gender gender, MaritalStatus maritalStatus) {
         this.fullName = fullName;
         this.dob = dob;
-        this.nationality =nationality;
+        this.nationality = nationality;
         this.contactNum = contactNum;
         this.email = email;
         this.gender = gender;

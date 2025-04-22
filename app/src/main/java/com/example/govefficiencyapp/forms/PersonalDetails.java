@@ -1,7 +1,10 @@
 package com.example.govefficiencyapp.forms;
 import com.example.govefficiencyapp.domain.User;
-public enum Gender {MALE, FEMALE, NON-BINARY};
-public enum MaritalStatus{SINGLE, MARRIED, DIVORCED, WIDOWED}
+
+import java.util.Date;
+
+;
+
 public class PersonalDetails {
     private String fullName;
     private Date dob;
