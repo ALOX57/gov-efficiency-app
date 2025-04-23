@@ -11,24 +11,24 @@ public class NotificationManager implements ClearanceObservor{
     private int currentUserID;
     private List<Application> applications;
     private final int daysBeforeExpiry = 7;
-    private final List<ClearanceObserver> observers = new ArrayList<>();
+    private final List<NotificationManager> observers = new ArrayList<>();
 
     public NotificationManager(int currentUserID, List<Application> applications) {
         this.currentUserID = currentUserID;
         this.applications = applications;
     }
 
-    public void addObserver(ClearanceObserver observer) {
+    public void addObserver(NotificationManager observer) {
         observers.add(observer);
     }
 
-    public void removeObserver(ClearanceObserver observer) {
+    public void removeObserver(NotificationManager observer) {
         observers.remove(observer);
     }
 
     // Notify all observers of a clearance update
     private void notifyObservers(Application app) {
-        for (ClearanceObserver observer : observers) {
+        for (NotificationManager observer : observers) {
             observer.onClearanceUpdated(app);
         }
     }
@@ -46,15 +46,16 @@ public class NotificationManager implements ClearanceObservor{
         // TODO: Trigger "expiring soon" notifications
     }
 
-    private boolean isExpired(Application app) {
-        LocalDate today = LocalDate.now();
-        return app.getEndDate().isBefore(today);
-    }
-
-    private boolean isExpiringSoon(Application app) {
-        LocalDate today = LocalDate.now();
-        return app.getEndDate().isAfter(today) && app.getEndDate().isBefore(today.plusDays(daysBeforeExpiry));
-    }
+    //TODO: Implement Application.getEndDate()
+//    private boolean isExpired(Application app) {
+//        LocalDate today = LocalDate.now();
+//        return app.getEndDate().isBefore(today);
+//    }
+//
+//    private boolean isExpiringSoon(Application app) {
+//        LocalDate today = LocalDate.now();
+//        return app.getEndDate().isAfter(today) && app.getEndDate().isBefore(today.plusDays(daysBeforeExpiry));
+//    }
 
     public void notifyStatusChange(Application app) {
         // TODO: Logic for status change
