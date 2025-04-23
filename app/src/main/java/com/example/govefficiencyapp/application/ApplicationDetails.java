@@ -3,9 +3,9 @@ package com.example.govefficiencyapp.application;
 import com.example.govefficiencyapp.domain.Application;
 import com.example.govefficiencyapp.domain.Clearance;
 import com.example.govefficiencyapp.enums.Status;
-import com.example.govefficiencyapp.forms.EducationDetails;
-import com.example.govefficiencyapp.forms.FamilyDetails;
-import com.example.govefficiencyapp.forms.PersonalDetails;
+import com.example.govefficiencyapp.forms.data.EducationDetails;
+import com.example.govefficiencyapp.forms.data.FamilyDetails;
+import com.example.govefficiencyapp.forms.data.PersonalDetails;
 
 public class ApplicationDetails {
     public PersonalDetails personalDetails;
@@ -28,6 +28,11 @@ public class ApplicationDetails {
         this.requestedDuration = requestedDuration;
 
     }
+
+    public ApplicationDetails() {
+
+    }
+
     public void manipulateDetails(){
 
     }

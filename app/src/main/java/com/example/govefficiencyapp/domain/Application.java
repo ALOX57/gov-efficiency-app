@@ -2,6 +2,9 @@ package com.example.govefficiencyapp.domain;
 
 import com.example.govefficiencyapp.application.ApplicationDetails;
 import com.example.govefficiencyapp.enums.Status;
+import com.example.govefficiencyapp.forms.data.EducationDetails;
+import com.example.govefficiencyapp.forms.data.FamilyDetails;
+import com.example.govefficiencyapp.forms.data.PersonalDetails;
 
 public class Application extends ApplicationDetails {
     private String startDate;
