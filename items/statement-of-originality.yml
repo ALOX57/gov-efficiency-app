@@ -66,13 +66,13 @@ assets:
 
 # for each member, sign by inputting your name and uid here (remove any empty "name+uid" entries)
 members:
-  - name:
-    uid:
-  - name:
-    uid:
-  - name:
-    uid:
-  - name:
-    uid:
+  - name:Timothy Tsang
+    uid:u7614415
+  - name:Bradley Lunn
+    uid:u7923257
+  - name:Alex Birtles
+    uid:u7950645
+  - name:Oli Bailey
+    uid:u7653052
   - name:
     uid:

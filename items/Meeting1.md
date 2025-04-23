@@ -1,7 +1,7 @@
 # [Team Name]
 This following is a very simple team meeting template. You should expand it based on the scope and nature of your discussion.
 
-## Team Meeting 1 - Week 7 - 18/04/2025 (12:00pm - 3:00pm)
+## Team Meeting 1 - Week 6 - 13/04/2025 (12:00pm - 3:00pm)
 **Absent:** None (partial team meeting)
 <br>
 **Lead/scribe:** Alex Birtles
@@ -35,6 +35,9 @@ Stand up Procedure:
 ### Summary of decisions
 - Alex to draft the class strucure and implement the skeleton code
 - Timothy to create the UML diagram for the planned strucure
+- Only Alex to push code during Week 7 because this week to focus on the initial setup phase (establishing the code skeleton and structure)
+- Goal: avoid merge conflicts and maintain consistency during the early development stage, ensuring a solid foundation before full team commitments
+- Full team contributions (code pushes) planned to begin from Week 8 onwards after the code skeleton and UML aligned.
 
 ### Matters to be confirmed
 - Review and finalize the code structure, idea, and UML with the full team in the next meeting

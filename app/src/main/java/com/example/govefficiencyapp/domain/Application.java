@@ -1,8 +1,9 @@
 package com.example.govefficiencyapp.domain;
 
+import com.example.govefficiencyapp.application.ApplicationDetails;
 import com.example.govefficiencyapp.enums.Status;
 
-public class Application {
+public class Application extends ApplicationDetails {
     private String startDate;
     private String endDate;
     private String requestDate;
@@ -10,6 +11,8 @@ public class Application {
     private Clearance clearance;
     private int id;
     private Status status;
+
+    private ApplicationDetails details;
 
     public Application(String startDate, String endDate, String requestDate, String approvalDate, Clearance clearance, int id, Status status){
         this.startDate = startDate;
