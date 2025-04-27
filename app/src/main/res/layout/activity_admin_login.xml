@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/applicantNameTextbox"
+        android:id="@+id/applicationPersonalDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -41,10 +41,10 @@
         android:text="Email"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicantNameTextbox" />
+        app:layout_constraintTop_toBottomOf="@+id/applicationPersonalDetails" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/backButton"
         android:layout_width="243dp"
         android:layout_height="47dp"
         android:layout_marginBottom="24dp"
