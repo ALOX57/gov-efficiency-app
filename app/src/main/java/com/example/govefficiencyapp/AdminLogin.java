@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -24,11 +26,25 @@ public class AdminLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_login); // This links to activity_second.xml
+
+        EditText fullNameBox = findViewById(R.id.applicationFullNameTextbox);
+        EditText emailBox = findViewById(R.id.applicantEmailTextbox);
+        Spinner adminTypeSpinner = findViewById(R.id.spinner);
+
+
+
         Button loginButton = findViewById(R.id.loginButton);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String fullName = String.valueOf(fullNameBox.getText());
+                String email = String.valueOf(emailBox.getText());
+                String adminType = String.valueOf(adminTypeSpinner.getSelectedItem());
+                System.out.println("FULL NAME: " + fullName);
+                System.out.println("EMAIL: " + email);
+                System.out.println("ADMIN TYPE: " + adminType);
                 if(auth.loginAuth("", "")){
+
                     Intent intent = new Intent(AdminLogin.this, AdminHomepage.class);
                     startActivity(intent);
                 }

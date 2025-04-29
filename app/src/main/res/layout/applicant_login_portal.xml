@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Applicant Example View: (Name)"
+        android:text="Applicant Login"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/applicationPersonalDetails"
+        android:id="@+id/applicationFullNameTextbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -55,7 +55,7 @@
         android:text="Date of Birth"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicationPersonalDetails" />
+        app:layout_constraintTop_toBottomOf="@+id/applicationFullNameTextbox" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/applicantRegisterButton"
