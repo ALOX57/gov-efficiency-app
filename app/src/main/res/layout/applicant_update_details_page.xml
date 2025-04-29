@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Update Details"
+        android:text="Applicant Update Details"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -128,11 +128,11 @@
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
         android:text="Back"
-        app:layout_constraintBottom_toBottomOf="@+id/createClearanceButton"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="658dp" />
 
     <Button
-        android:id="@+id/createClearanceButton"
+        android:id="@+id/confirmUpdateDetails"
         android:layout_width="152dp"
         android:layout_height="83dp"
         android:layout_marginEnd="48dp"

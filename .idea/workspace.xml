@@ -5,6 +5,11 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file:///mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/activity_admin_homepage.xml">
+        <config>
+          <theme>@style/Theme.GovEfficiencyApp</theme>
+        </config>
+      </layout>
       <layout url="file:///mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/activity_admin_login.xml">
         <config>
           <theme>@style/Theme.GovEfficiencyApp</theme>
@@ -35,31 +40,92 @@
           <theme>@style/Theme.GovEfficiencyApp</theme>
         </config>
       </layout>
+      <layout url="file:///mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/content_admin_homepage.xml">
+        <config>
+          <theme>@style/Theme.GovEfficiencyApp</theme>
+        </config>
+      </layout>
+      <layout url="file:///mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/fragment_first.xml">
+        <config>
+          <theme>@style/Theme.GovEfficiencyApp</theme>
+        </config>
+      </layout>
+      <layout url="file:///mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/navigation/nav_graph.xml">
+        <config>
+          <theme>@style/Theme.GovEfficiencyApp</theme>
+        </config>
+      </layout>
+      <layout url="file:///mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/navigation/navigation_map.xml">
+        <config>
+          <theme>@style/Theme.GovEfficiencyApp</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Rough outline for admin and user login screen UI.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_homepage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/applicant_homepage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/applicant_login_portal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/applicant_update_details_page.xml" afterDir="false" />
-      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/admin_homepage.xml" afterDir="false" />
-      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_homepage.xml" afterDir="false" />
-      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_login_portal.xml" afterDir="false" />
-      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_update_details_page.xml" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Added pages for Admin and Applicant actions.">
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/AdminHomepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/AdminLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/ApplicantHomepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/ApplicantLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/ApplicantUpdateDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-land/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-v23/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/AdminHomepage.java" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/AdminLogin.java" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/ApplicantHomepage.java" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/ApplicantLogin.java" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/ApplicantUpdateDetails.java" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/Authenticator.java" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values-land/dimens.xml" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values-v23/themes.xml" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
+      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_admin_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_admin_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/applicant_login_portal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/applicant_login_portal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/checksums/checksums.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/misc.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/misc.xml" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/workspace.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/build.gradle" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/build.gradle" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/activity_admin_login.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/activity_admin_login.xml" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_login_portal.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_login_portal.xml" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_update_details_page.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout/applicant_update_details_page.xml" afterDir="false" />
+      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +159,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="navigationResourceFile" />
       </list>
     </option>
   </component>
@@ -119,7 +186,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="_Designer_Tab" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -136,11 +203,12 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout",
+    "last_opened_file_path": "/mnt/shared/B430B1F430B1BDA4/Documents/Coding-Projects/IdeaProjects/comp2100-lab-05",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",
@@ -150,6 +218,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/res/layout" />
+    </key>
+    <key name="android.template.-1295373636">
+      <recent name="com.example.govefficiencyapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.govefficiencyapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -439,19 +513,20 @@
     <MESSAGE value="Add notifyStatusChange skeleton method in NotificationManager class" />
     <MESSAGE value="Got gradle working in this branch" />
     <MESSAGE value="Rough outline for admin and user login screen UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rough outline for admin and user login screen UI." />
+    <MESSAGE value="Added pages for Admin and Applicant actions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pages for Admin and Applicant actions." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.govefficiencyapp">
           <value>
-            <CheckInfo lastCheckTimestamp="1745733740741" />
+            <CheckInfo lastCheckTimestamp="1745895235794" />
           </value>
         </entry>
         <entry key="com.example.govefficiencyapp.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1745733740748" />
+            <CheckInfo lastCheckTimestamp="1745895235803" />
           </value>
         </entry>
       </map>
