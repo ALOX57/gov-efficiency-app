@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/applicationPersonalDetails"
+        android:id="@+id/applicationFullNameTextbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -55,35 +55,46 @@
         android:text="Date of Birth"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicationPersonalDetails" />
+        app:layout_constraintTop_toBottomOf="@+id/applicationFullNameTextbox" />
 
-    <Button
-        android:id="@+id/addAdminButton"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/applicantRegisterButton"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/applicantRegisterButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        android:text="Main"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/loginButton"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/addAdminButton" />
+        app:layout_constraintTop_toTopOf="@+id/applicantRegisterButton" />
+
+<!--    <Button-->
+<!--        android:id="@+id/createClearanceButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Update Profile"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/addAdminButton"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/loginButton"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/addAdminButton" />-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/createClearanceButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        app:layout_constraintEnd_toStartOf="@+id/applicantRegisterButton"
+        app:layout_constraintStart_toEndOf="@+id/loginButton"
+        app:layout_constraintTop_toTopOf="@+id/applicantRegisterButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

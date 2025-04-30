@@ -19,14 +19,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/applicationPersonalDetails"
+        android:id="@+id/applicationFullNameTextbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Personal Details"
+        android:text="Full Name"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topTextBox" />
@@ -42,7 +42,7 @@
         android:text="Family Details"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicationPersonalDetails" />
+        app:layout_constraintTop_toBottomOf="@+id/applicationFullNameTextbox" />
 
     <EditText
         android:id="@+id/applicationEducationDetails"
@@ -122,16 +122,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/applicationClearanceReason" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/backButton"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="107dp"
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
+        android:layout_marginBottom="16dp"
         android:text="Back"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="658dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button"
         android:id="@+id/confirmUpdateDetails"
         android:layout_width="152dp"
         android:layout_height="83dp"

@@ -44,7 +44,7 @@ public class ApplicantHomepage extends AppCompatActivity {
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ApplicantHomepage.this, AdminLogin.class);
+                Intent intent = new Intent(ApplicantHomepage.this, ApplicantLogin.class);
                 startActivity(intent);
             }
         });
