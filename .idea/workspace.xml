@@ -66,33 +66,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Added code to read the text boxes, and a class to help debug them (WIP)">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/domain/UserList.java" afterDir="false" />
-      <change afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/domain/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="8b3baee8-7574-4a59-b782-e0e850d572f4" name="Changes" comment="Added basic authentication. Check UserList.java for usernames and passwords exclusively for testing purposes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/AdminLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/ApplicantLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/ApplicantLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/Authenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/govefficiencyapp/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/workspace.xml" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/AdminLogin.java" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/AdminLogin.java" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/ApplicantLogin.java" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/ApplicantLogin.java" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/Authenticator.java" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/Authenticator.java" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/MainActivity.java" afterDir="false" />
       <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/domain/User.java" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/app/src/main/java/com/example/govefficiencyapp/domain/User.java" afterDir="false" />
-      <change beforePath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/local.properties" beforeDir="false" afterPath="/mnt/shared/B430B1F430B1BDA4/Documents/2025S1 Uni Work/COMP2100/Group Assignment/gp-25s1/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Clearance skeleton class" />
     <MESSAGE value="Create domain package, refactor User and Clearance class into domain package" />
     <MESSAGE value="Add Application skeleton class" />
     <MESSAGE value="Add enums pacakge, add Status enum" />
@@ -484,19 +460,20 @@
     <MESSAGE value="Linked all pages together and added placeholder effects for all buttons." />
     <MESSAGE value="Added animations to all the buttons to improve UX" />
     <MESSAGE value="Added code to read the text boxes, and a class to help debug them (WIP)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to read the text boxes, and a class to help debug them (WIP)" />
+    <MESSAGE value="Added basic authentication. Check UserList.java for usernames and passwords exclusively for testing purposes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic authentication. Check UserList.java for usernames and passwords exclusively for testing purposes." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.govefficiencyapp">
           <value>
-            <CheckInfo lastCheckTimestamp="1745895235794" />
+            <CheckInfo lastCheckTimestamp="1746065779396" />
           </value>
         </entry>
         <entry key="com.example.govefficiencyapp.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1745895235803" />
+            <CheckInfo lastCheckTimestamp="1746065779409" />
           </value>
         </entry>
       </map>
