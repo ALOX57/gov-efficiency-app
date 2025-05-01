@@ -29,7 +29,7 @@ public class AdminLogin extends AppCompatActivity {
 
         EditText fullNameBox = findViewById(R.id.applicationFullNameTextbox);
         EditText emailBox = findViewById(R.id.applicantEmailTextbox);
-        Spinner adminTypeSpinner = findViewById(R.id.spinner);
+//        Spinner adminTypeSpinner = findViewById(R.id.spinner);
 
 
 
@@ -39,11 +39,11 @@ public class AdminLogin extends AppCompatActivity {
             public void onClick(View view) {
                 String fullName = String.valueOf(fullNameBox.getText());
                 String email = String.valueOf(emailBox.getText());
-                String adminType = String.valueOf(adminTypeSpinner.getSelectedItem());
+//                String adminType = String.valueOf(adminTypeSpinner.getSelectedItem());
                 System.out.println("FULL NAME: " + fullName);
                 System.out.println("EMAIL: " + email);
-                System.out.println("ADMIN TYPE: " + adminType);
-                if(auth.loginAuth("", "")){
+//                System.out.println("ADMIN TYPE: " + adminType);
+                if(auth.loginAuth("", "", true)){
 
                     Intent intent = new Intent(AdminLogin.this, AdminHomepage.class);
                     startActivity(intent);

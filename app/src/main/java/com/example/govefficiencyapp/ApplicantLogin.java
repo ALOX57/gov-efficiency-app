@@ -24,10 +24,10 @@ public class ApplicantLogin extends AppCompatActivity {
         ElementLogger logger = new ElementLogger();
         EditText fullNameBox = findViewById(R.id.applicationFullNameTextbox);
         EditText emailBox = findViewById(R.id.applicantEmailTextbox);
-        EditText DOBBox = findViewById(R.id.applicantDOBTextbox);
+//        EditText DOBBox = findViewById(R.id.applicantDOBTextbox);
         Map<String, EditText> textBoxes = Map.of(
                 "Full Name", fullNameBox,
-                "Date Of Birth", DOBBox,
+//                "Date Of Birth", DOBBox,
                 "Email", emailBox
         );
 
@@ -37,12 +37,12 @@ public class ApplicantLogin extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String[] textBoxValues = logger.getTextFromBoxes(new EditText[]{fullNameBox, emailBox, DOBBox});
+                String[] textBoxValues = logger.getTextFromBoxes(new EditText[]{fullNameBox, emailBox/*, DOBBox*/});
                 String fullName = textBoxValues[0];
                 String email = textBoxValues[1];
-                String DOB = textBoxValues[2];
+//                String DOB = textBoxValues[2];
                 logger.printValues(textBoxes);
-                if(auth.loginAuth("", "")){
+                if(auth.loginAuth(fullName, email, false)){
                     Intent intent = new Intent(ApplicantLogin.this, ApplicantHomepage.class);
                     startActivity(intent);
                 }
@@ -55,10 +55,11 @@ public class ApplicantLogin extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(auth.loginAuth("", "")){
-                    Intent intent = new Intent(ApplicantLogin.this, MainActivity.class);
-                    startActivity(intent);
-                }
+                Intent intent = new Intent(ApplicantLogin.this, MainActivity.class);
+                startActivity(intent);
+//                if(auth.loginAuth("", "", false)){
+//
+//                }
 
             }
         });

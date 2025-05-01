@@ -18,62 +18,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/applicationFullNameTextbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Full Name"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topTextBox" />
-
-    <EditText
-        android:id="@+id/applicantEmailTextbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Email"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicantDOBTextbox" />
-
-    <EditText
-        android:id="@+id/applicantDOBTextbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Date of Birth"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicationFullNameTextbox" />
-
     <com.google.android.material.button.MaterialButton
-        style="@style/Widget.MaterialComponents.Button"
         android:id="@+id/addAdminButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="126dp"
+        android:layout_height="180dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="164dp"
         android:text="Admin Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        style="@style/Widget.MaterialComponents.Button"
         android:id="@+id/loginButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="125dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="36dp"
         android:text="User Login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/addAdminButton" />

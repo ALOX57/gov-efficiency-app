@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
         Authenticator auth = new Authenticator();
         ElementLogger logger = new ElementLogger();
 
-        EditText fullNameBox = findViewById(R.id.applicationFullNameTextbox);
-        EditText DOBBox = findViewById(R.id.applicantDOBTextbox);
-        EditText emailBox = findViewById(R.id.applicantEmailTextbox);
+//        EditText fullNameBox = findViewById(R.id.applicationFullNameTextbox);
+//        EditText DOBBox = findViewById(R.id.applicantDOBTextbox);
+//        EditText emailBox = findViewById(R.id.applicantEmailTextbox);
 
-        Map<String, EditText> textBoxes = Map.of(
-                "Full Name", fullNameBox,
-                "Date of Birth", DOBBox,
-                "Email",emailBox
-        );
+//        Map<String, EditText> textBoxes = Map.of(
+//                "Full Name", fullNameBox,
+//                "Date of Birth", DOBBox,
+//                "Email",emailBox
+//        );
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -45,11 +45,17 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                logger.printValues(textBoxes);
-                if(auth.loginAuth("", "")){
-                    Intent intent = new Intent(MainActivity.this, ApplicantLogin.class);
-                    startActivity(intent);
-                }
+//                String[] textBoxValues = logger.getTextFromBoxes(new EditText[]{fullNameBox, emailBox/*, DOBBox*/});
+//                String fullName = textBoxValues[0];
+//                String email = textBoxValues[1];
+//                String DOB = textBoxValues[2];
+//                logger.printValues(textBoxes);
+//                if(auth.loginAuth(fullName, email, false)){
+//                    Intent intent = new Intent(MainActivity.this, ApplicantLogin.class);
+//                    startActivity(intent);
+//                }
+                Intent intent = new Intent(MainActivity.this, ApplicantLogin.class);
+                startActivity(intent);
 
             }
         });
@@ -57,12 +63,17 @@ public class MainActivity extends AppCompatActivity {
         admin_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                logger.printValues(textBoxes);
-                if(auth.loginAuth("", "")){
+//                String[] textBoxValues = logger.getTextFromBoxes(new EditText[]{fullNameBox, emailBox/*, DOBBox*/});
+//                String fullName = textBoxValues[0];
+//                String email = textBoxValues[1];
+//                String DOB = textBoxValues[2];
+//                logger.printValues(textBoxes);
+//                if(auth.loginAuth(fullName, email, true)){
+//                    Intent intent = new Intent(MainActivity.this, AdminLogin.class);
+//                    startActivity(intent);
+//                }
                     Intent intent = new Intent(MainActivity.this, AdminLogin.class);
                     startActivity(intent);
-                }
-
             }
         });
 

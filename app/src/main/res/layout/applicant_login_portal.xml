@@ -26,7 +26,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Full Name"
+        android:text="USERNAME"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topTextBox" />
@@ -36,23 +36,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="80dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Email"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/applicantDOBTextbox" />
-
-    <EditText
-        android:id="@+id/applicantDOBTextbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Date of Birth"
+        android:text="PASSWORD"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/applicationFullNameTextbox" />
